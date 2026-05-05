@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		43C92CF72F92AF7200B56966 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A940C42FA98F5400ADA22C /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		43C92CF92F92AF7200B56966 /* GuessTheFlag */ = {
+		43A940C62FA98F5400ADA22C /* GuessTheFlag */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43C92CF42F92AF7200B56966 /* Frameworks */ = {
+		43A940C12FA98F5400ADA22C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43C92CEE2F92AF7200B56966 = {
+		43A940BB2FA98F5400ADA22C = {
 			isa = PBXGroup;
 			children = (
-				43C92CF92F92AF7200B56966 /* GuessTheFlag */,
-				43C92CF82F92AF7200B56966 /* Products */,
+				43A940C62FA98F5400ADA22C /* GuessTheFlag */,
+				43A940C52FA98F5400ADA22C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		43C92CF82F92AF7200B56966 /* Products */ = {
+		43A940C52FA98F5400ADA22C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43C92CF72F92AF7200B56966 /* GuessTheFlag.app */,
+				43A940C42FA98F5400ADA22C /* GuessTheFlag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43C92CF62F92AF7200B56966 /* GuessTheFlag */ = {
+		43A940C32FA98F5400ADA22C /* GuessTheFlag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43C92D022F92AF7700B56966 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = 43A940CF2FA98F5700ADA22C /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
 			buildPhases = (
-				43C92CF32F92AF7200B56966 /* Sources */,
-				43C92CF42F92AF7200B56966 /* Frameworks */,
-				43C92CF52F92AF7200B56966 /* Resources */,
+				43A940C02FA98F5400ADA22C /* Sources */,
+				43A940C12FA98F5400ADA22C /* Frameworks */,
+				43A940C22FA98F5400ADA22C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				43C92CF92F92AF7200B56966 /* GuessTheFlag */,
+				43A940C62FA98F5400ADA22C /* GuessTheFlag */,
 			);
 			name = GuessTheFlag;
 			packageProductDependencies = (
 			);
 			productName = GuessTheFlag;
-			productReference = 43C92CF72F92AF7200B56966 /* GuessTheFlag.app */;
+			productReference = 43A940C42FA98F5400ADA22C /* GuessTheFlag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		43C92CEF2F92AF7200B56966 /* Project object */ = {
+		43A940BC2FA98F5400ADA22C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					43C92CF62F92AF7200B56966 = {
+					43A940C32FA98F5400ADA22C = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 43C92CF22F92AF7200B56966 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = 43A940BF2FA98F5400ADA22C /* Build configuration list for PBXProject "GuessTheFlag" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 43C92CEE2F92AF7200B56966;
+			mainGroup = 43A940BB2FA98F5400ADA22C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 43C92CF82F92AF7200B56966 /* Products */;
+			productRefGroup = 43A940C52FA98F5400ADA22C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43C92CF62F92AF7200B56966 /* GuessTheFlag */,
+				43A940C32FA98F5400ADA22C /* GuessTheFlag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43C92CF52F92AF7200B56966 /* Resources */ = {
+		43A940C22FA98F5400ADA22C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43C92CF32F92AF7200B56966 /* Sources */ = {
+		43A940C02FA98F5400ADA22C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		43C92D002F92AF7700B56966 /* Debug */ = {
+		43A940CD2FA98F5700ADA22C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		43C92D012F92AF7700B56966 /* Release */ = {
+		43A940CE2FA98F5700ADA22C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		43C92D032F92AF7700B56966 /* Debug */ = {
+		43A940D02FA98F5700ADA22C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		43C92D042F92AF7700B56966 /* Release */ = {
+		43A940D12FA98F5700ADA22C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43C92CF22F92AF7200B56966 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		43A940BF2FA98F5400ADA22C /* Build configuration list for PBXProject "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43C92D002F92AF7700B56966 /* Debug */,
-				43C92D012F92AF7700B56966 /* Release */,
+				43A940CD2FA98F5700ADA22C /* Debug */,
+				43A940CE2FA98F5700ADA22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43C92D022F92AF7700B56966 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		43A940CF2FA98F5700ADA22C /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43C92D032F92AF7700B56966 /* Debug */,
-				43C92D042F92AF7700B56966 /* Release */,
+				43A940D02FA98F5700ADA22C /* Debug */,
+				43A940D12FA98F5700ADA22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 43C92CEF2F92AF7200B56966 /* Project object */;
+	rootObject = 43A940BC2FA98F5400ADA22C /* Project object */;
 }
