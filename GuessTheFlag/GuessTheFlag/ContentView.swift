@@ -18,7 +18,6 @@ struct ContentView: View {
     @State private var isReset = false
     @State private var questionId = 1
     
-    
     var body: some View {
         ZStack {
 //            LinearGradient(colors: [.blue, .black], startPoint: .top, endPoint: .bottom)
@@ -32,8 +31,8 @@ struct ContentView: View {
             
             VStack{
                 Text("Guess the Flag")
-                        .font(.largeTitle.weight(.bold))
-                        .foregroundStyle(.white)
+                        .blueTitle()
+                        
                 VStack(spacing: 15){
                     Text("Tap the flag of")
                         .foregroundStyle(.white)
@@ -48,8 +47,7 @@ struct ContentView: View {
                             flagTapped(number)
                         } label: {
                             Image(countries[number])
-                                .clipShape(.capsule)
-                                .shadow(radius: 5)
+                                .FlagImage()
                         }
                     }
                 }
@@ -100,6 +98,34 @@ struct ContentView: View {
     func reset() {
         score = 0
         questionId = 0
+    }
+}
+
+struct Flag: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .clipShape(.capsule)
+            .shadow(radius: 5)
+    }
+}
+
+extension View {
+    func FlagImage() -> some View {
+        modifier(Flag())
+    }
+}
+
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle.weight(.bold))
+            .foregroundStyle(.blue)
+    }
+}
+
+extension View {
+    func blueTitle() -> some View {
+        modifier(Title())
     }
 }
 
